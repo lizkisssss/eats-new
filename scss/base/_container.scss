@@ -1,0 +1,16 @@
+.container {
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    outline: 1px dashed blue;
+    @media (min-width: 480px) {
+        width: 480px;
+    }
+    @media (min-width: 768px) {
+        width: 768px;
+    }
+    @media (min-width: 1200px) {
+        width: 1200px;
+    }
+}

@@ -1,0 +1,50 @@
+.menu-button{
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: currentColor;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    &:hover{
+        background-color: gray;
+        color: #ffff;
+    }
+
+    @media (min-width:768px){
+        display: none;
+    }
+}
+
+.menu-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    padding: 32px;
+    transform: translateX(100%);
+}
+
+.menu-container.is-open{
+    transform: translateX(0%);
+}
+
+.mobile-menu {
+    font-size: 34px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .menu-container .menu-btn{
+     color: aliceblue;
+  }

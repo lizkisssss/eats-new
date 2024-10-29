@@ -1,0 +1,26 @@
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn {
+    border: 1px solid transparent;
+    cursor: pointer;
+    min-width: 236px;
+    border-radius: 30px;
+    padding: 16px 32px;
+    background-color: #FA4A0C;
+    color: #fff;
+}
+
+.btn-transperent {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
